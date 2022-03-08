@@ -1,6 +1,7 @@
 
 .hero,
-.header {
+.header,
+.footer {
     background-color: #1F2937;
     color: white;
 }
@@ -27,6 +28,10 @@ align-items: center;
 padding: 0px 10px;
 }
 
+.logo{
+    padding-left: 20px;
+    
+}
 
 
 ul{
@@ -51,13 +56,14 @@ li{
 }
 
 .hero1{
-    font-size: 48px;
+    font-size: 36px;
     font-weight: bold;
     color: #f9FAF8;
-    max-width: 300px;
+    max-width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 .hero2{
@@ -71,15 +77,32 @@ li{
     background-color: #53565a33;
 }
 
+.cardtitle{
+text-align: center;
+font-weight:900;
+color:#1F2937;
+font-size: 36px;
+padding: 5px;
+margin-top: 20px;
+}
 .cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.p_card{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
 .card{
-  
-    border: 1px solid #eee;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 1px solid #eee;
 box-shadow: 2px 4px 16px rgba(0,0,0,.06);
 border-radius: 4px;
 margin: 16px;
@@ -87,3 +110,25 @@ padding: 16px;
 width: 500px;
 }
 
+
+.CTA{
+    background-color:#3882f6;
+    display: flex;
+   
+    justify-content: space-evenly;
+    align-self: stretch;
+}
+
+.cta_1 {
+padding: 5px;
+}
+
+
+.cta_2{
+    padding: 5px;
+}
+
+.footer{
+   display: flex;
+   justify-content: center;
+}
